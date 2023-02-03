@@ -25,18 +25,18 @@
 
 // console.log(person["firstName"])
 
-const pet = {
-    petName: "Belle",
-    typeOfPet: "GermanSpitz",
-    age: 10,
-    occupation: "Annoyence",
-    colour: "White",
-    perFeatures: ["Flufy", "Playful"],
-    eat: "Chicken",
-    drink: "Water"
-}
+// const pet = {
+//     petName: "Belle",
+//     typeOfPet: "GermanSpitz",
+//     age: 10,
+//     occupation: "Annoyence",
+//     colour: "White",
+//     perFeatures: ["Flufy", "Playful"],
+//     eat: "Chicken",
+//     drink: "Water"
+// }
 
-console.log(`Belle like's to eat ${pet.eat} and drinks ${pet.drink}`)
+// console.log(`Belle like's to eat ${pet.eat} and drinks ${pet.drink}`)
 
 
 //     console.log(person)
@@ -81,4 +81,29 @@ console.log(`Belle like's to eat ${pet.eat} and drinks ${pet.drink}`)
 
 // console.log(person.marketingOp())
 
+// ___________________________________Activity 5 Coffee Shop_________________________________________________
 
+// const coffeeShop = {
+//     branch: "Just a MOCHA",
+//     drinks: ["Latte", "Home brewed mocha", "Soft drink", "Tea"],
+//     food:  ["Brownie", "Cookie", "Cake", "Sandwitches"],
+//     prices: [3.00, 2.50, 6.00, 1.50, 5.00, 3.50,],
+//     drinkOrdered: true,
+//     foodOrdered: false,
+//     order() {
+//         if (this.drinkOrdered == true && this.foodOrdered == true){
+//             return (`Let me just grab the ${coffeeShop.drinks[1]} at £${coffeeShop.prices[2].toFixed(2)} and ${coffeeShop.food[1]} at £${coffeeShop.prices[2].toFixed(2)}. Your total comes to £${(coffeeShop.prices[0] + coffeeShop.prices[2]).toFixed(2)}. Thank you.`)
+//         }
+//         else if (this.drinkOrdered == true && this.foodOrdered == false){
+//             return (`Let me just grab the ${coffeeShop.drinks[2]} at £${coffeeShop.prices[4].toFixed(2)}, want some food with that?`)
+//         }
+//         else if (this.drinkOrdered == false && this.foodOrdered == true){
+//             return(`Let me just grab the ${coffeeShop.food[2]} at £${coffeeShop.prices[5].toFixed(2)}. Lovely is they any drinks i can get you?`)
+//         }
+//         else(this.drinkOrdered == false && this.foodOrdered == false);{
+//             return (`Hi! Welcome to ${coffeeShop.branch} Coffee Shop. May I please take your order?`)
+//         }
+//     }
+// }
+// console.log(coffeeShop.order())
+//_____________________________________________________________________________________________________________________________________

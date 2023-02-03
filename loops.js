@@ -61,12 +61,16 @@
 
 //_________________________________________Activity 6________________________________
 
-function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min)
-}
-const rndInt = randomIntFromInterval(1, 30)
+// function randomIntFromInterval(min, max) {
+//     while(randomIntFromInterval <= 6) 
+//     print (console.log)(randomIntFromInterval())
+//     return Math.floor(Math.random() * (max - min + 1) + min)
+    
+// }
+// const rndInt = randomIntFromInterval(1, 30)
 
-if (rndInt % 7 == 0)
-console.log(rndInt, "This number is Divisible by 7")
-else console.log("This number is not divisible by 7")
+// if (rndInt % 7 == 0)
+// console.log(rndInt, "This number is Divisible by 7")
+// else console.log("This number is not divisible by 7")
 
+//_________________________________________________________________________________________

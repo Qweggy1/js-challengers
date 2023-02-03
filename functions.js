@@ -61,8 +61,8 @@
 
 // addMe(4,5)
 
-function myName() {
-    console.log("My name is Blake")
-}
+// function myName() {
+//     console.log("My name is Blake")
+// }
 
-myName();
+// myName();
